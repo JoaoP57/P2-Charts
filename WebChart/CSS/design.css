@@ -1,0 +1,211 @@
+body {
+    overflow: auto;
+    background-position: center;
+    background-position-y: 100px;
+}
+
+.jumbotron{
+    background-color: rgb(227, 239, 255);
+}
+
+#myBody {
+    padding-left: 150px; 
+    padding-right: 150px;
+    background-color: azure
+}
+
+#img {
+    width: 500px;
+    align-content: center
+}
+
+.navbar {
+    margin-bottom: 10px;
+    border-radius: 0;
+    background-color: rgb(227, 239, 255);
+    color: gray;    
+    font-size: 1.2em;
+    border: 0;
+}
+
+.canvas {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#svgpainel h1 {
+    margin-top: 50px;
+}
+
+.navbar-brand {
+    float: left;
+    min-height: 44px;
+    padding: 0 15px 5px;
+}
+
+h1 {
+    color: black;
+    
+}
+
+h2 {
+    color: black;
+}
+
+h4 {
+    color: black;
+   
+}
+
+h3 {
+    color: black;
+    font-weight: bold;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+
+h5 {
+    color: black;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+
+/* ----------FOOTER------------ */
+
+.footer {
+    width: 100%;
+    height: 15%;    
+    padding: 25px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+
+footer h3 {
+    color: white;
+    margin-left: 0px;
+    margin-bottom: 2px;
+    font-size: 15px;
+}
+
+footer h5 {
+    color: white;
+    margin-left: 0px;
+    margin-bottom: 20px;
+    font-size: 12px;
+} 
+
+/*------EMAIL FORM-------*/
+
+#mainform {
+    width: 1000px;
+    padding-top: 10px;
+    font-family: "Arial", sans-serif;
+    border-radius: 2px;
+    box-shadow: 0 0 15px;
+    font-size: 12px;
+    font-weight: bold;
+    width: 350px;
+    margin: 70px 300px 0 35px;
+    float: right;
+}
+
+#mainform input[type=text] {
+    height: 40px;
+    width: 280px;
+    margin-top: 5px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+#mainform button[type=submit] {
+    background-color: #0d243b;
+    border: 1px solid white;
+    width: 30%;
+    font-family: 'Arial', sans-serif;
+    font-Weight: bold;
+    font-size: 12px;
+    color: white;
+    padding: 10px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+#mainform button[type=reset] {
+    background-color: #0d243b;
+    border: 1px solid white;
+    width: 30%;
+    font-family: 'Arial', sans-serif;
+    font-Weight: bold;
+    font-size: 12px;
+    color: white;
+    padding: 10px;
+    margin-left: 80px;
+}
+
+#mainform h2 {
+    color: rgb(212, 211, 211);
+}
+
+/*------------- PARQUE DE ESTACIONAMENTO (GESTAO)------------*/
+
+#conteudo {
+    margin-bottom: 20px;
+}
+
+#nome_util {
+    padding-top: 13px;
+    padding-right: 20px
+}
+
+#ent, #gravar {
+    font-family: "Arial", sans-serif;
+    text-transform: uppercase;
+    margin-left: 80px;
+    margin-top: 20px;
+    outline: 0;
+    background: rgb(11, 7, 46);
+    width: 40%;
+    height: 10%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+#ent:hover, #ent:active {
+    background: rgb(28, 50, 110);
+}
+
+#gravar:hover, #gravar:active {
+    background: rgb(28, 50, 110);
+}
+
+b {
+    color: rgb(199, 199, 194);
+    margin-left: 300px;
+}
+
+/* Estes id's são visíveis no ficheiro 'alertas.js' */
+
+#alertas {
+    background-color: rgb(155, 151, 151);
+    color: black;
+    align-content: right;
+    border-color: yellow;
+}
+
+#alertas_eventos {
+    align-content: right;
+    padding-bottom: 240px;
+    width: 50%;
+    height: 200px;
+}
+
+#info_alerta {
+    color: black;
+}

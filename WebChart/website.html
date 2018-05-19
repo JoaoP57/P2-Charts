@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>WebChart</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/design.css">
+    <script src="JS/website.js"></script>
+    <script src="JS/alerts.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="website.html">
+                    <img src="Imagens/wchart.png " width="100px">
+                </a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-left">
+                    <li class="nav-link" id="home">
+                        <a href="">About</a>
+                    </li>
+                    <li>
+                        <a id="contatos_btn" href="">App</a>
+                    </li>
+                </ul>
+                <!-- <ul id="nav_right" class="nav navbar-nav navbar-right">
+                    <li id="nome_util">
+                    </li>
+                    <li>
+                        <a href="registo.html">
+                            <span class="glyphicon glyphicon-log-in"></span> Logout</a>
+                    </li>
+                </ul> -->
+            </div>
+        </div>
+    </nav>
+    <div id="myBody">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 style="margin-top: 100px">
+                        WChart
+                    </h2>
+                    <h4>
+                        WebChart id s free API that lets you quickly implement all sorts of charts in you website Choose one of out many pre-configured
+                        layouts and send your request to out API which gives beautiful instant charts.
+                        <h4>
+                            <a class="btn btn-primary btn-large" href="#">Learn more</a>
+                        </h4>
+                </div>
+            </div>
+            <hr>
+            <div class="row" style="margin-top: 100px">
+                <div class="col-md-8">
+                    <div class="jumbotron">
+                        <h2>
+                            Gráfico de Barras
+                        </h2>
+                        <p>
+                            O gráfico de barras é um gráfico com barras retangulares e comprimento proporcional aos valores que ele representa. As barras
+                            podem ser desenhadas verticalmente ou horizontalmente. O gráfico de barras vertical as vezes
+                            é chamado de gráfico de colunas.
+                        </p>
+                        <p>
+                            <a class="btn btn-primary btn-large" href="#">Learn more</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img alt="Bootstrap Image Preview" src="Imagens/barras.png" />
+                </div>
+            </div>
+            <hr>
+            <div class="row" style="margin-top: 100px">
+                <div class="col-md-8">
+                    <div class="jumbotron">
+                        <h2>
+                            Gráfico de Setores
+                        </h2>
+                        <p>
+                            Gráfico de setores ou gráfico circular, como é tradicionalmente chamado gráfico de pizza é um diagrama circular em que os
+                            valores de cada categoria estatística representada são proporcionais às respectivas medidas dos
+                            ângulos.
+                        </p>
+                        <p>
+                            <a class="btn btn-primary btn-large" href="#">Learn more</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img alt="Bootstrap Image Preview" src="Imagens/setores.png" />
+                </div>
+            </div>
+            <hr>
+            <div class="row" style="margin-top: 100px">
+                <div class="col-md-8">
+                    <div class="jumbotron">
+                        <h2>
+                            Gráfico de Linha
+                        </h2>
+                        <p>
+                            O gráfico de linha é um tipo de gráfico que exibe informações com uma série de pontos de dados chamados de marcadores
+                            ligados por segmentos de linha reta .É um tipo básico de gráfico comum em muitos campos. É semelhante a um diagrama 
+                            de dispersão, exceto que os pontos de medição são ordenados (tipicamente pelo seu valor do eixo-x) e juntou-se com segmentos de reta. 
+                            Gráficos de linhas mostram como algumas alterações de dados específicos em intervalos de tempo são iguais. Um gráfico de linhas é muitas 
+                            vezes usado para visualizar uma tendência nos dados em intervalos de tempo - uma série de tempo -, assim, a linha é muitas vezes atraídas 
+                            por ordem cronológica.O gráfico de linha é composto por dois eixos, um vertical e outro horizontal, e por uma linha que mostra a evolução 
+                            de um fenômeno ou processo.
+                        </p>
+                        <p>
+                            <a class="btn btn-primary btn-large" href="#">Learn more</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img alt="Bootstrap Image Preview" src="Imagens/linhas.gif" />
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div id="alertas_eventos"></div>
+    </div>
+    <footer class="footer">
+        <div class="row">
+            <h4>Escola Superior de Media Artes e Design - Politécnico do Porto</h4>
+        </div>
+    </footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

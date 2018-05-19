@@ -1,0 +1,134 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 06), rgba(0, 0, 0, 0.6)), url('../Imagens/parklogin.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.login-page {
+    width: 300px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background: rgba(61, 67, 92, 0.8);
+    max-width: 300px;
+    margin: 0 auto 100px;
+    padding: 50px;
+    text-align: center;
+}
+
+.form input {
+    font-family: "Arial", sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+#btmloginreg {
+    font-family: "Arial", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: rgb(23, 15, 88);
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+#btmloginreg1 {
+    text-align: center;
+    font-family: "Arial", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: rgb(23, 15, 88);
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#btmloginreg:hover, #btmloginreg:active {
+    background: rgb(28, 50, 110);
+}
+#btmloginreg1:hover, #btmloginreg1:active {
+    background: rgb(28, 50, 110);
+}
+
+
+.form .message {
+    margin: 15px;
+    color: aliceblue;
+    font-size: 12px;
+}
+
+.form .message a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.form .register-form {
+    display: none;
+    font-size: 14px;
+}
+
+.register-form input[type] {
+    height: 45px;
+}
+
+.register-form button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.login-form input[type] {
+    height: 50px;
+}
+
+#btmloginreg span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    color: white;
+}
+
+#btmloginreg span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+#btmloginreg:hover span {
+    padding-right: 25px;
+}
+
+#btmloginreg:hover span:after {
+    opacity: 1;
+    right: 0;
+}
